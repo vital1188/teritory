@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategic 3D Game</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="game-container"></div>
+      <div id="ui-container">
+        <div id="game-info">
+          <h1>Strategic Territory</h1>
+          <div id="status">Waiting to start...</div>
+          <div id="score">Your Units: 0 | AI Units: 0</div>
+        </div>
+        <div id="controls">
+          <button id="start-game">Start Game</button>
+          <button id="end-turn" disabled>End Turn</button>
+        </div>
+        <div id="message-log"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
